@@ -232,6 +232,7 @@ section .main-container{
     font-size: 120%;
     font-weight: 700;
     border-radius: 5px;
+    cursor: pointer;
     transition: 0.2s linear;
 }
 
@@ -434,19 +435,19 @@ section .button button:hover {
 }
 
 .services .content {
-    width: 100%; /* Adjust the width for better centering */
+    width: 100%;
     margin: 0 auto;
 }
 
 .services .boxes {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center; /* Center the boxes */
+    justify-content: center;
 }
 
 .services .boxes .box {
     margin: 20px;
-    width: calc(100% / 3 - 40px); /* More margin for centering */
+    width: calc(100% / 3 - 40px);
     text-align: center;
     border-radius: 12px;
     padding: 30px 10px;
